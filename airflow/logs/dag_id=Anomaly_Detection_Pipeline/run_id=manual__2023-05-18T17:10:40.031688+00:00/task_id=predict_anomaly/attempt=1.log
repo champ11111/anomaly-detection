@@ -1,0 +1,24 @@
+[2023-05-18T17:12:49.166+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: Anomaly_Detection_Pipeline.predict_anomaly manual__2023-05-18T17:10:40.031688+00:00 [queued]>
+[2023-05-18T17:12:49.218+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: Anomaly_Detection_Pipeline.predict_anomaly manual__2023-05-18T17:10:40.031688+00:00 [queued]>
+[2023-05-18T17:12:49.221+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-18T17:12:49.226+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-05-18T17:12:49.228+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-18T17:12:49.300+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): predict_anomaly> on 2023-05-18 17:10:40.031688+00:00
+[2023-05-18T17:12:49.333+0000] {standard_task_runner.py:55} INFO - Started process 7729 to run task
+[2023-05-18T17:12:49.356+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'Anomaly_Detection_Pipeline', 'predict_anomaly', 'manual__2023-05-18T17:10:40.031688+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/anomaly.py', '--cfg-path', '/tmp/tmpb2iv8qzl']
+[2023-05-18T17:12:49.363+0000] {standard_task_runner.py:83} INFO - Job 78: Subtask predict_anomaly
+[2023-05-18T17:12:49.650+0000] {task_command.py:388} INFO - Running <TaskInstance: Anomaly_Detection_Pipeline.predict_anomaly manual__2023-05-18T17:10:40.031688+00:00 [running]> on host f32c5bf56d3e
+[2023-05-18T17:12:49.975+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=dataength
+AIRFLOW_CTX_DAG_ID=Anomaly_Detection_Pipeline
+AIRFLOW_CTX_TASK_ID=predict_anomaly
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-18T17:10:40.031688+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-18T17:10:40.031688+00:00
+[2023-05-18T17:12:51.478+0000] {logging_mixin.py:137} INFO - Response data: {'predictions': [0, -1, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+[2023-05-18T17:12:51.538+0000] {python.py:177} INFO - Done. Returned value was: 200
+[2023-05-18T17:12:51.708+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=Anomaly_Detection_Pipeline, task_id=predict_anomaly, execution_date=20230518T171040, start_date=20230518T171249, end_date=20230518T171251
+[2023-05-18T17:12:52.108+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-05-18T17:12:52.337+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
