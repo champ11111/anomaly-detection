@@ -4555,3 +4555,10 @@ Please take a look at these docs to improve your DAG import time:
 [2023-05-18T17:45:12.687+0000] {logging_mixin.py:137} INFO - [2023-05-18T17:45:12.686+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2023-05-18T17:45:13.104+0000] {logging_mixin.py:137} INFO - [2023-05-18T17:45:13.103+0000] {dag.py:3441} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2023-05-18T17:44:00+00:00, run_after=2023-05-18T17:45:00+00:00
 [2023-05-18T17:45:13.282+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.953 seconds
+[2023-05-18T17:45:44.182+0000] {processor.py:153} INFO - Started process (PID=1174) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-18T17:45:44.188+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2023-05-18T17:45:44.198+0000] {logging_mixin.py:137} INFO - [2023-05-18T17:45:44.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-18T17:45:44.479+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_branch_dop_operator_v3']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-18T17:45:44.753+0000] {logging_mixin.py:137} INFO - [2023-05-18T17:45:44.752+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-18T17:45:44.965+0000] {logging_mixin.py:137} INFO - [2023-05-18T17:45:44.964+0000] {dag.py:3441} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2023-05-18T17:44:00+00:00, run_after=2023-05-18T17:45:00+00:00
+[2023-05-18T17:45:45.052+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.885 seconds
