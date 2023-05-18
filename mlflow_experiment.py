@@ -106,9 +106,6 @@ grouped_df['time_spend_scaled'] = scaler.fit_transform(grouped_df['average_time_
 # Start MLflow run
 min_samples = 2 # Minimum number of samples required to form a dense region
 
-start = 0.05
-stop = 0.9
-step = 0.05
 
 EXPERIMENT_NAME = "dbscan-experiment4"
 EXPERIMENT_ID = mlflow.create_experiment(EXPERIMENT_NAME)
