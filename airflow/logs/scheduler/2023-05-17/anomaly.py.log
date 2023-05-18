@@ -1,0 +1,92 @@
+[2023-05-17 16:50:55,487] {processor.py:153} INFO - Started process (PID=1218) to work on /opt/airflow/dags/anomaly.py
+[2023-05-17 16:50:55,488] {processor.py:641} INFO - Processing file /opt/airflow/dags/anomaly.py for tasks to queue
+[2023-05-17 16:50:55,490] {logging_mixin.py:115} INFO - [2023-05-17 16:50:55,490] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:50:55,555] {processor.py:651} INFO - DAG(s) dict_keys(['covid19_data_pipeline']) retrieved from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:50:55,986] {logging_mixin.py:115} INFO - [2023-05-17 16:50:55,986] {manager.py:508} INFO - Created Permission View: can delete on DAG:covid19_data_pipeline
+[2023-05-17 16:50:56,020] {logging_mixin.py:115} INFO - [2023-05-17 16:50:56,019] {manager.py:508} INFO - Created Permission View: can read on DAG:covid19_data_pipeline
+[2023-05-17 16:50:56,039] {logging_mixin.py:115} INFO - [2023-05-17 16:50:56,039] {manager.py:508} INFO - Created Permission View: can edit on DAG:covid19_data_pipeline
+[2023-05-17 16:50:56,041] {logging_mixin.py:115} INFO - [2023-05-17 16:50:56,041] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-17 16:50:56,061] {logging_mixin.py:115} INFO - [2023-05-17 16:50:56,061] {dag.py:2390} INFO - Creating ORM DAG for covid19_data_pipeline
+[2023-05-17 16:50:56,087] {logging_mixin.py:115} INFO - [2023-05-17 16:50:56,087] {dag.py:2919} INFO - Setting next_dagrun for covid19_data_pipeline to 2023-05-16T00:00:00+00:00, run_after=2023-05-17T00:00:00+00:00
+[2023-05-17 16:50:56,125] {processor.py:161} INFO - Processing /opt/airflow/dags/anomaly.py took 0.644 seconds
+[2023-05-17 16:51:26,718] {processor.py:153} INFO - Started process (PID=1274) to work on /opt/airflow/dags/anomaly.py
+[2023-05-17 16:51:26,720] {processor.py:641} INFO - Processing file /opt/airflow/dags/anomaly.py for tasks to queue
+[2023-05-17 16:51:26,721] {logging_mixin.py:115} INFO - [2023-05-17 16:51:26,721] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:51:26,747] {processor.py:651} INFO - DAG(s) dict_keys(['covid19_data_pipeline']) retrieved from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:51:26,778] {logging_mixin.py:115} INFO - [2023-05-17 16:51:26,777] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-17 16:51:26,806] {logging_mixin.py:115} INFO - [2023-05-17 16:51:26,806] {dag.py:2919} INFO - Setting next_dagrun for covid19_data_pipeline to 2023-05-16T00:00:00+00:00, run_after=2023-05-17T00:00:00+00:00
+[2023-05-17 16:51:26,824] {processor.py:161} INFO - Processing /opt/airflow/dags/anomaly.py took 0.112 seconds
+[2023-05-17 16:51:28,727] {processor.py:153} INFO - Started process (PID=1275) to work on /opt/airflow/dags/anomaly.py
+[2023-05-17 16:51:28,729] {processor.py:641} INFO - Processing file /opt/airflow/dags/anomaly.py for tasks to queue
+[2023-05-17 16:51:28,731] {logging_mixin.py:115} INFO - [2023-05-17 16:51:28,731] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:51:28,759] {processor.py:651} INFO - DAG(s) dict_keys(['covid19_data_pipeline']) retrieved from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:51:28,847] {logging_mixin.py:115} INFO - [2023-05-17 16:51:28,847] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-17 16:51:29,008] {logging_mixin.py:115} INFO - [2023-05-17 16:51:29,008] {dag.py:2919} INFO - Setting next_dagrun for covid19_data_pipeline to 2023-05-16T00:00:00+00:00, run_after=2023-05-17T00:00:00+00:00
+[2023-05-17 16:51:29,031] {processor.py:161} INFO - Processing /opt/airflow/dags/anomaly.py took 0.308 seconds
+[2023-05-17 16:51:32,056] {processor.py:153} INFO - Started process (PID=1285) to work on /opt/airflow/dags/anomaly.py
+[2023-05-17 16:51:32,058] {processor.py:641} INFO - Processing file /opt/airflow/dags/anomaly.py for tasks to queue
+[2023-05-17 16:51:32,059] {logging_mixin.py:115} INFO - [2023-05-17 16:51:32,059] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:51:32,089] {processor.py:651} INFO - DAG(s) dict_keys(['covid19_data_pipeline']) retrieved from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:51:32,114] {logging_mixin.py:115} INFO - [2023-05-17 16:51:32,114] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-17 16:51:32,145] {logging_mixin.py:115} INFO - [2023-05-17 16:51:32,144] {dag.py:2919} INFO - Setting next_dagrun for covid19_data_pipeline to 2023-05-16T00:00:00+00:00, run_after=2023-05-17T00:00:00+00:00
+[2023-05-17 16:51:32,165] {processor.py:161} INFO - Processing /opt/airflow/dags/anomaly.py took 0.113 seconds
+[2023-05-17 16:52:02,306] {processor.py:153} INFO - Started process (PID=1343) to work on /opt/airflow/dags/anomaly.py
+[2023-05-17 16:52:02,308] {processor.py:641} INFO - Processing file /opt/airflow/dags/anomaly.py for tasks to queue
+[2023-05-17 16:52:02,312] {logging_mixin.py:115} INFO - [2023-05-17 16:52:02,312] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:52:02,351] {processor.py:651} INFO - DAG(s) dict_keys(['covid19_data_pipeline']) retrieved from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:52:02,421] {logging_mixin.py:115} INFO - [2023-05-17 16:52:02,420] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-17 16:52:02,484] {logging_mixin.py:115} INFO - [2023-05-17 16:52:02,484] {dag.py:2919} INFO - Setting next_dagrun for covid19_data_pipeline to 2023-05-16T00:00:00+00:00, run_after=2023-05-17T00:00:00+00:00
+[2023-05-17 16:52:02,511] {processor.py:161} INFO - Processing /opt/airflow/dags/anomaly.py took 0.212 seconds
+[2023-05-17 16:52:21,443] {processor.py:153} INFO - Started process (PID=1397) to work on /opt/airflow/dags/anomaly.py
+[2023-05-17 16:52:21,445] {processor.py:641} INFO - Processing file /opt/airflow/dags/anomaly.py for tasks to queue
+[2023-05-17 16:52:21,447] {logging_mixin.py:115} INFO - [2023-05-17 16:52:21,446] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:52:21,486] {processor.py:651} INFO - DAG(s) dict_keys(['Anomaly_Detection_Pipeline']) retrieved from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:52:21,827] {logging_mixin.py:115} INFO - [2023-05-17 16:52:21,826] {manager.py:508} INFO - Created Permission View: can delete on DAG:Anomaly_Detection_Pipeline
+[2023-05-17 16:52:21,845] {logging_mixin.py:115} INFO - [2023-05-17 16:52:21,845] {manager.py:508} INFO - Created Permission View: can read on DAG:Anomaly_Detection_Pipeline
+[2023-05-17 16:52:21,859] {logging_mixin.py:115} INFO - [2023-05-17 16:52:21,859] {manager.py:508} INFO - Created Permission View: can edit on DAG:Anomaly_Detection_Pipeline
+[2023-05-17 16:52:21,861] {logging_mixin.py:115} INFO - [2023-05-17 16:52:21,860] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-17 16:52:21,873] {logging_mixin.py:115} INFO - [2023-05-17 16:52:21,873] {dag.py:2390} INFO - Creating ORM DAG for Anomaly_Detection_Pipeline
+[2023-05-17 16:52:21,892] {logging_mixin.py:115} INFO - [2023-05-17 16:52:21,892] {dag.py:2919} INFO - Setting next_dagrun for Anomaly_Detection_Pipeline to 2023-05-16T00:00:00+00:00, run_after=2023-05-17T00:00:00+00:00
+[2023-05-17 16:52:21,922] {processor.py:161} INFO - Processing /opt/airflow/dags/anomaly.py took 0.486 seconds
+[2023-05-17 16:52:52,052] {processor.py:153} INFO - Started process (PID=1456) to work on /opt/airflow/dags/anomaly.py
+[2023-05-17 16:52:52,057] {processor.py:641} INFO - Processing file /opt/airflow/dags/anomaly.py for tasks to queue
+[2023-05-17 16:52:52,059] {logging_mixin.py:115} INFO - [2023-05-17 16:52:52,059] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:52:52,101] {processor.py:651} INFO - DAG(s) dict_keys(['Anomaly_Detection_Pipeline']) retrieved from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:52:52,150] {logging_mixin.py:115} INFO - [2023-05-17 16:52:52,150] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-17 16:52:52,194] {logging_mixin.py:115} INFO - [2023-05-17 16:52:52,194] {dag.py:2919} INFO - Setting next_dagrun for Anomaly_Detection_Pipeline to 2023-05-17T00:00:00+00:00, run_after=2023-05-18T00:00:00+00:00
+[2023-05-17 16:52:52,213] {processor.py:161} INFO - Processing /opt/airflow/dags/anomaly.py took 0.170 seconds
+[2023-05-17 16:53:22,673] {processor.py:153} INFO - Started process (PID=1522) to work on /opt/airflow/dags/anomaly.py
+[2023-05-17 16:53:22,675] {processor.py:641} INFO - Processing file /opt/airflow/dags/anomaly.py for tasks to queue
+[2023-05-17 16:53:22,676] {logging_mixin.py:115} INFO - [2023-05-17 16:53:22,676] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:53:22,696] {processor.py:651} INFO - DAG(s) dict_keys(['Anomaly_Detection_Pipeline']) retrieved from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:53:22,727] {logging_mixin.py:115} INFO - [2023-05-17 16:53:22,727] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-17 16:53:22,756] {logging_mixin.py:115} INFO - [2023-05-17 16:53:22,756] {dag.py:2919} INFO - Setting next_dagrun for Anomaly_Detection_Pipeline to 2023-05-17T00:00:00+00:00, run_after=2023-05-18T00:00:00+00:00
+[2023-05-17 16:53:22,772] {processor.py:161} INFO - Processing /opt/airflow/dags/anomaly.py took 0.102 seconds
+[2023-05-17 16:53:53,337] {processor.py:153} INFO - Started process (PID=1575) to work on /opt/airflow/dags/anomaly.py
+[2023-05-17 16:53:53,338] {processor.py:641} INFO - Processing file /opt/airflow/dags/anomaly.py for tasks to queue
+[2023-05-17 16:53:53,340] {logging_mixin.py:115} INFO - [2023-05-17 16:53:53,340] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:53:53,368] {processor.py:651} INFO - DAG(s) dict_keys(['Anomaly_Detection_Pipeline']) retrieved from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:53:53,412] {logging_mixin.py:115} INFO - [2023-05-17 16:53:53,412] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-17 16:53:53,442] {logging_mixin.py:115} INFO - [2023-05-17 16:53:53,441] {dag.py:2919} INFO - Setting next_dagrun for Anomaly_Detection_Pipeline to 2023-05-17T00:00:00+00:00, run_after=2023-05-18T00:00:00+00:00
+[2023-05-17 16:53:53,475] {processor.py:161} INFO - Processing /opt/airflow/dags/anomaly.py took 0.144 seconds
+[2023-05-17 16:54:23,572] {processor.py:153} INFO - Started process (PID=1640) to work on /opt/airflow/dags/anomaly.py
+[2023-05-17 16:54:23,574] {processor.py:641} INFO - Processing file /opt/airflow/dags/anomaly.py for tasks to queue
+[2023-05-17 16:54:23,575] {logging_mixin.py:115} INFO - [2023-05-17 16:54:23,575] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:54:23,592] {processor.py:651} INFO - DAG(s) dict_keys(['Anomaly_Detection_Pipeline']) retrieved from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:54:23,625] {logging_mixin.py:115} INFO - [2023-05-17 16:54:23,625] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-17 16:54:23,652] {logging_mixin.py:115} INFO - [2023-05-17 16:54:23,652] {dag.py:2919} INFO - Setting next_dagrun for Anomaly_Detection_Pipeline to 2023-05-17T00:00:00+00:00, run_after=2023-05-18T00:00:00+00:00
+[2023-05-17 16:54:23,666] {processor.py:161} INFO - Processing /opt/airflow/dags/anomaly.py took 0.098 seconds
+[2023-05-17 16:54:53,928] {processor.py:153} INFO - Started process (PID=1697) to work on /opt/airflow/dags/anomaly.py
+[2023-05-17 16:54:53,929] {processor.py:641} INFO - Processing file /opt/airflow/dags/anomaly.py for tasks to queue
+[2023-05-17 16:54:53,931] {logging_mixin.py:115} INFO - [2023-05-17 16:54:53,931] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:54:53,948] {processor.py:651} INFO - DAG(s) dict_keys(['Anomaly_Detection_Pipeline']) retrieved from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:54:53,975] {logging_mixin.py:115} INFO - [2023-05-17 16:54:53,975] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-17 16:54:54,004] {logging_mixin.py:115} INFO - [2023-05-17 16:54:54,004] {dag.py:2919} INFO - Setting next_dagrun for Anomaly_Detection_Pipeline to 2023-05-17T00:00:00+00:00, run_after=2023-05-18T00:00:00+00:00
+[2023-05-17 16:54:54,020] {processor.py:161} INFO - Processing /opt/airflow/dags/anomaly.py took 0.096 seconds
+[2023-05-17 16:55:24,298] {processor.py:153} INFO - Started process (PID=1760) to work on /opt/airflow/dags/anomaly.py
+[2023-05-17 16:55:24,301] {processor.py:641} INFO - Processing file /opt/airflow/dags/anomaly.py for tasks to queue
+[2023-05-17 16:55:24,315] {logging_mixin.py:115} INFO - [2023-05-17 16:55:24,314] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:55:24,372] {processor.py:651} INFO - DAG(s) dict_keys(['Anomaly_Detection_Pipeline']) retrieved from /opt/airflow/dags/anomaly.py
+[2023-05-17 16:55:24,486] {logging_mixin.py:115} INFO - [2023-05-17 16:55:24,484] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-17 16:55:24,553] {logging_mixin.py:115} INFO - [2023-05-17 16:55:24,552] {dag.py:2919} INFO - Setting next_dagrun for Anomaly_Detection_Pipeline to 2023-05-17T00:00:00+00:00, run_after=2023-05-18T00:00:00+00:00
+[2023-05-17 16:55:24,578] {processor.py:161} INFO - Processing /opt/airflow/dags/anomaly.py took 0.295 seconds

@@ -1,0 +1,21 @@
+FROM apache/airflow:2.5.1
+
+USER root
+
+RUN apt-get update && \
+  apt-get install -y openjdk-11-jdk-headless scala wget && \
+  wget https://dlcdn.apache.org/spark/spark-3.3.2/spark-3.3.2-bin-hadoop3.tgz && \
+  tar xf spark-3.3.2-bin-hadoop3.tgz && \
+  mv spark-3.3.2-bin-hadoop3 spark
+
+ENV SPARK_HOME /spark
+RUN export SPARK_HOME
+ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64/
+RUN export JAVA_HOME
+
+USER airflow
+
+COPY requirements.txt .
+
+RUN python -m pip install --upgrade pip && \
+  pip install -r requirements.txt

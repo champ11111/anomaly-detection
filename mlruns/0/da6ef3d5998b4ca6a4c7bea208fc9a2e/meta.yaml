@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/admin/Desktop/Projects/DataScience/mlruns/0/da6ef3d5998b4ca6a4c7bea208fc9a2e/artifacts
+end_time: 1684174548798
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: da6ef3d5998b4ca6a4c7bea208fc9a2e
+run_name: magnificent-stag-187
+run_uuid: da6ef3d5998b4ca6a4c7bea208fc9a2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684174542650
+status: 3
+tags: []
+user_id: admin
