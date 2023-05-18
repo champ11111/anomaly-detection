@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0d48c727ea4c485f97181ce23dc8668c/artifacts
+end_time: 1684410324102
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d48c727ea4c485f97181ce23dc8668c
+run_name: intelligent-kite-637
+run_uuid: 0d48c727ea4c485f97181ce23dc8668c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684410324083
+status: 4
+tags: []
+user_id: thun

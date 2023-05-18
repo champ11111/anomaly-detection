@@ -1,0 +1,14 @@
+artifact_path: DBSCAN_Model
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.3.2
+model_uuid: 5ff068c69afa479a83c820fe717f69b1
+run_id: ebb0fd920a8c4446b4c03f5e348edea7
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 1]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+utc_time_created: '2023-05-17 11:02:32.027867'

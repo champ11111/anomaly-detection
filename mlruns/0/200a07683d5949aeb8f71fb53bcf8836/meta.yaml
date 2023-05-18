@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/200a07683d5949aeb8f71fb53bcf8836/artifacts
+end_time: 1684412796396
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 200a07683d5949aeb8f71fb53bcf8836
+run_name: clumsy-skunk-798
+run_uuid: 200a07683d5949aeb8f71fb53bcf8836
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684412794864
+status: 3
+tags: []
+user_id: thun

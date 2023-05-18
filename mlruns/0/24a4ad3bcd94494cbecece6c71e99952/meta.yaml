@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/24a4ad3bcd94494cbecece6c71e99952/artifacts
+end_time: 1684409968216
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 24a4ad3bcd94494cbecece6c71e99952
+run_name: luminous-grouse-624
+run_uuid: 24a4ad3bcd94494cbecece6c71e99952
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684409968196
+status: 4
+tags: []
+user_id: thun

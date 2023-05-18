@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/ebb0fd920a8c4446b4c03f5e348edea7/artifacts
+end_time: 1684321353335
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ebb0fd920a8c4446b4c03f5e348edea7
+run_name: unruly-ant-457
+run_uuid: ebb0fd920a8c4446b4c03f5e348edea7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684321352003
+status: 3
+tags: []
+user_id: thun

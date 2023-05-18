@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/278b9316c39a4d71b58a7cd0346a0f18/artifacts
+end_time: 1684414698558
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 278b9316c39a4d71b58a7cd0346a0f18
+run_name: rumbling-pig-651
+run_uuid: 278b9316c39a4d71b58a7cd0346a0f18
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684414696913
+status: 3
+tags: []
+user_id: thun

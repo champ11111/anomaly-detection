@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/147b3fd529a1457fbbe576548b08efc1/artifacts
+end_time: 1684319298591
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 147b3fd529a1457fbbe576548b08efc1
+run_name: aged-fox-514
+run_uuid: 147b3fd529a1457fbbe576548b08efc1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684319297143
+status: 4
+tags: []
+user_id: thun

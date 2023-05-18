@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/bd6dd423496640239c8364ac581ab295/artifacts
+end_time: 1684413844094
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd6dd423496640239c8364ac581ab295
+run_name: judicious-stork-639
+run_uuid: bd6dd423496640239c8364ac581ab295
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684413842539
+status: 3
+tags: []
+user_id: thun

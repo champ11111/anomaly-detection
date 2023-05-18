@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/6ff2032525544f9888c5d290d395e70e/artifacts
+end_time: 1684413388235
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ff2032525544f9888c5d290d395e70e
+run_name: big-chimp-157
+run_uuid: 6ff2032525544f9888c5d290d395e70e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684413386592
+status: 3
+tags: []
+user_id: thun

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/739066546983019651/00e7004cf21d47f4b62424b45faea792/artifacts
+end_time: 1684419772228
+entry_point_name: ''
+experiment_id: '739066546983019651'
+lifecycle_stage: active
+run_id: 00e7004cf21d47f4b62424b45faea792
+run_name: run_13
+run_uuid: 00e7004cf21d47f4b62424b45faea792
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684419771042
+status: 3
+tags: []
+user_id: thun

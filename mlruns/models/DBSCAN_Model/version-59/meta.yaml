@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1684423246904
+current_stage: None
+description: ''
+last_updated_timestamp: 1684423246904
+name: DBSCAN_Model
+run_id: a21ba2fbfe484feba0ee2bf74aec76ad
+run_link: ''
+source: mlflow-artifacts:/296907162525821392/a21ba2fbfe484feba0ee2bf74aec76ad/artifacts/DBSCAN_Model
+status: READY
+status_message: null
+user_id: null
+version: 59

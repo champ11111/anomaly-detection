@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/d894f465031f4b7392f39dd3c2bb2faa/artifacts
+end_time: 1684320085838
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d894f465031f4b7392f39dd3c2bb2faa
+run_name: silent-stag-203
+run_uuid: d894f465031f4b7392f39dd3c2bb2faa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684320085830
+status: 4
+tags: []
+user_id: thun

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/3dd4c55c1bf24176a9102a38d75e12d0/artifacts
+end_time: 1684414298783
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3dd4c55c1bf24176a9102a38d75e12d0
+run_name: luminous-roo-436
+run_uuid: 3dd4c55c1bf24176a9102a38d75e12d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684414297200
+status: 3
+tags: []
+user_id: thun

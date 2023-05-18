@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/cae522c8096048a88031f5dbe654b8bb/artifacts
+end_time: 1684330452660
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cae522c8096048a88031f5dbe654b8bb
+run_name: kindly-squid-414
+run_uuid: cae522c8096048a88031f5dbe654b8bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684330452643
+status: 4
+tags: []
+user_id: thun

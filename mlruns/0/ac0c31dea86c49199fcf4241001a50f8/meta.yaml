@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/ac0c31dea86c49199fcf4241001a50f8/artifacts
+end_time: 1684320144644
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ac0c31dea86c49199fcf4241001a50f8
+run_name: tasteful-sponge-986
+run_uuid: ac0c31dea86c49199fcf4241001a50f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684320144636
+status: 4
+tags: []
+user_id: thun
