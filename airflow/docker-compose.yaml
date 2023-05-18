@@ -242,7 +242,7 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
   model:
-    image: thunthup/dbscan
+    image: thunthup/dbscan:0.9
     ports:
       - 8081:8080
     restart: always

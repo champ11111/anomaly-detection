@@ -58,15 +58,12 @@ def get_traffy_data():
 
     # Create the date range
     dates = pd.date_range(start=start_date, end=end_date)
-    print(dates)
 
     data = []
     for i in tqdm(range(len(dates)-1)):
         data += get_data(state_type, dates[i], dates[i+1])["results"]
 
     df = pd.DataFrame(data)
-
-    print(df)
 
     findspark.init()
 
@@ -82,13 +79,13 @@ def get_traffy_data():
     # Convert pandas DataFrame to PySpark DataFrame
     spark_df = spark.createDataFrame(df)
 
-    # Define UDF to check existence of district
     def check_existence(address):
         for word in district_list:
             if word in address:
                 return word
         return None
 
+    # Define UDF to check existence of district
     check_existence_udf = udf(check_existence, StringType())
 
     # Apply UDF to create district column
@@ -112,13 +109,15 @@ def get_traffy_data():
     # Apply the scaler to transform the data
     scaledData = scalerModel.transform(grouped_df)
 
+    scaledData = scaledData.orderBy('district')
+
     # Show the transformed data
     scaledData.show()
 
     X = scaledData.select("time_spend_scaled").rdd.flatMap(lambda x: x).collect()
-
-    output_json = {"inputs": [list(e) for e in X]}
     
+    output_json = {"inputs": [list(e) for e in X]}
+
     return output_json
 
 class Item(BaseModel):
@@ -131,4 +130,4 @@ async def create_item(item: Item):
     df = pd.DataFrame({'district': item.district_list, 'anomaly': item.anomaly_list})
     df.to_csv(f'anomaly_data/anomaly_data_{datetime.today().strftime("%Y-%m-%d")}.csv', index=False)
     # Return a response
-    return {"message": "Item created successfully"}
+    return {"message": "File created successfully"}

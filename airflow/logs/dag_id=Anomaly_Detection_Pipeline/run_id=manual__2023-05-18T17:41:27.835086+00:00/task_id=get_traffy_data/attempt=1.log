@@ -1,0 +1,23 @@
+[2023-05-18T17:41:45.706+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: Anomaly_Detection_Pipeline.get_traffy_data manual__2023-05-18T17:41:27.835086+00:00 [queued]>
+[2023-05-18T17:41:45.884+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: Anomaly_Detection_Pipeline.get_traffy_data manual__2023-05-18T17:41:27.835086+00:00 [queued]>
+[2023-05-18T17:41:45.918+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-18T17:41:45.922+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-05-18T17:41:45.930+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-18T17:41:46.059+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): get_traffy_data> on 2023-05-18 17:41:27.835086+00:00
+[2023-05-18T17:41:46.091+0000] {standard_task_runner.py:55} INFO - Started process 502 to run task
+[2023-05-18T17:41:46.126+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'Anomaly_Detection_Pipeline', 'get_traffy_data', 'manual__2023-05-18T17:41:27.835086+00:00', '--job-id', '81', '--raw', '--subdir', 'DAGS_FOLDER/anomaly.py', '--cfg-path', '/tmp/tmpjdjg8ka4']
+[2023-05-18T17:41:46.130+0000] {standard_task_runner.py:83} INFO - Job 81: Subtask get_traffy_data
+[2023-05-18T17:41:46.435+0000] {task_command.py:388} INFO - Running <TaskInstance: Anomaly_Detection_Pipeline.get_traffy_data manual__2023-05-18T17:41:27.835086+00:00 [running]> on host 0ea9fc9e859a
+[2023-05-18T17:41:46.820+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=dataength
+AIRFLOW_CTX_DAG_ID=Anomaly_Detection_Pipeline
+AIRFLOW_CTX_TASK_ID=get_traffy_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-18T17:41:27.835086+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-18T17:41:27.835086+00:00
+[2023-05-18T17:43:40.234+0000] {python.py:177} INFO - Done. Returned value was: {'inputs': [[-0.22755971264928443], [-0.2242920804878674], [-0.9737780700290717], [0.16160428592420692], [2.202020655463187], [-0.35277509864501366], [1.670248899000228], [0.19781298712576822], [4.328818593111412], [-0.18780621645840456], [-1.1209158002346553], [-1.317494533316114], [0.31203040288903433], [-0.21044525374067063], [-0.9336803214014263], [0.5862481045453325], [-0.40432371248258725], [-0.7675253421818041], [0.35661105207944244], [0.9319584372261372], [-1.0598244064496427], [0.5145449682679933], [-0.7860775880670999], [-0.7604829533971291], [0.8175006146694299], [0.7266048406483355], [0.8218404236508106], [0.5984354030216578], [-0.1450734095321326], [-0.29769825214026063], [-0.39638258087142825], [0.7537974129294807], [-1.0225385795598634], [-0.6311578355215027], [-0.30697926562800776], [0.18466015187778917], [-1.277302625212149], [0.8538800943381304], [0.15247411937889377], [-0.6135247551906456], [-0.11165434326687106], [-0.5461413998312181], [1.2374050334083857], [-0.5550442524901229], [-1.057881727922915], [-0.11325015298662527], [-1.0137485981761678], [-0.6165641769695667], [0.7499373784615551], [-0.12651081317699667]]}
+[2023-05-18T17:43:40.559+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=Anomaly_Detection_Pipeline, task_id=get_traffy_data, execution_date=20230518T174127, start_date=20230518T174145, end_date=20230518T174340
+[2023-05-18T17:43:40.767+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-05-18T17:43:40.988+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

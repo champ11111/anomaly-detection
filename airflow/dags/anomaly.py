@@ -41,10 +41,6 @@ def get_traffy_data():
 
     input_json = response.json()
 
-    # #Write to file named "traffy_data_{start_date}_{end_date}.txt in folder data"
-    # with open(f'traffy_data_{start_date.strftime("%Y-%m-%d")}_{end_date.strftime("%Y-%m-%d")}.txt', 'w') as f:
-    #     f.write("%s\n" % input_json)
-    
     return input_json
 
 def predict_anomaly(**context):
